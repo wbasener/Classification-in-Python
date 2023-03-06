@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plt
 from matplotlib import style
+import matplotlib
 
 #style.use('fivethirtyeight')
 import numpy as np
 from scipy.stats import norm
+matplotlib.rc('axes', labelsize=14)
+matplotlib.rc('xtick', labelsize=12)
+matplotlib.rc('ytick', labelsize=12)
 
 np.random.seed(0)
 
